@@ -7,6 +7,7 @@
 #include <stddef.h>
 #ifndef UNIT_TEST
 extern "C" {
+  #include <c_types.h>
   #include <gpio.h>
   #include <user_interface.h>
 }
