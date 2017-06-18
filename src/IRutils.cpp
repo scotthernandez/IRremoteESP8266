@@ -53,6 +53,6 @@ void serialPrintUint64(uint64_t input, uint8_t base) {
   } while (input);
 
 #ifndef UNIT_TEST
-  Serial.print(str);
+  //Serial.print(str);
 #endif
 }
